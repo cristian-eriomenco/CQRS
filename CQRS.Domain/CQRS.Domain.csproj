@@ -49,9 +49,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\CargoModel\Cargo.cs" />
+    <Compile Include="Models\CargoModel\CargoAggregate.cs" />
     <Compile Include="Models\CargoModel\CargoId.cs" />
+    <Compile Include="Models\CargoModel\CargoState.cs" />
     <Compile Include="Models\CargoModel\Entities\TransportLeg.cs" />
     <Compile Include="Models\CargoModel\Entities\TransportLegId.cs" />
+    <Compile Include="Models\CargoModel\Events\CargoBookedEvent.cs" />
+    <Compile Include="Models\CargoModel\Events\CargoItinerarySetEvent.cs" />
     <Compile Include="Models\CargoModel\Specifications\RouteSpecification.cs" />
     <Compile Include="Models\CargoModel\Specifications\TransportLegsAreConnectedSpecification.cs" />
     <Compile Include="Models\CargoModel\ValueObjects\Itinerary.cs" />
