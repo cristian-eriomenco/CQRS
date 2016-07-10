@@ -77,6 +77,7 @@
     <Compile Include="Models\VoyageModel\Events\VoyageScheduleUpdatedEvent.cs" />
     <Compile Include="Models\VoyageModel\Queries\GetAllVoyagesQuery.cs" />
     <Compile Include="Models\VoyageModel\Queries\GetVoyagesQuery.cs" />
+    <Compile Include="Models\VoyageModel\ScheduleBuilder.cs" />
     <Compile Include="Models\VoyageModel\ValueObjects\Schedule.cs" />
     <Compile Include="Models\VoyageModel\Voyage.cs" />
     <Compile Include="Models\VoyageModel\VoyageAggregate.cs" />
