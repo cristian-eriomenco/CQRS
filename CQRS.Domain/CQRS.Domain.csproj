@@ -58,6 +58,8 @@
     <Compile Include="Models\CargoModel\Entities\TransportLegId.cs" />
     <Compile Include="Models\CargoModel\Events\CargoBookedEvent.cs" />
     <Compile Include="Models\CargoModel\Events\CargoItinerarySetEvent.cs" />
+    <Compile Include="Models\CargoModel\Queries\GetCargosDependentOnVoyageQuery.cs" />
+    <Compile Include="Models\CargoModel\Queries\GetCargosQuery.cs" />
     <Compile Include="Models\CargoModel\Specifications\RouteSpecification.cs" />
     <Compile Include="Models\CargoModel\Specifications\TransportLegsAreConnectedSpecification.cs" />
     <Compile Include="Models\CargoModel\ValueObjects\Itinerary.cs" />
@@ -73,6 +75,8 @@
     <Compile Include="Models\VoyageModel\Entities\CarrierMovementId.cs" />
     <Compile Include="Models\VoyageModel\Events\VoyageCreatedEvent.cs" />
     <Compile Include="Models\VoyageModel\Events\VoyageScheduleUpdatedEvent.cs" />
+    <Compile Include="Models\VoyageModel\Queries\GetAllVoyagesQuery.cs" />
+    <Compile Include="Models\VoyageModel\Queries\GetVoyagesQuery.cs" />
     <Compile Include="Models\VoyageModel\ValueObjects\Schedule.cs" />
     <Compile Include="Models\VoyageModel\Voyage.cs" />
     <Compile Include="Models\VoyageModel\VoyageAggregate.cs" />
