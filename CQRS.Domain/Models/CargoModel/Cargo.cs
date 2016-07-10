@@ -1,4 +1,5 @@
-﻿using EventFlow.Entities;
+﻿using CQRS.Domain.Models.CargoModel.ValueObjects;
+using EventFlow.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;

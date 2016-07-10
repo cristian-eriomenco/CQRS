@@ -1,4 +1,7 @@
-﻿using EventFlow.Entities;
+﻿using CQRS.Domain.Models.LocationModel;
+using CQRS.Domain.Models.VoyageModel;
+using CQRS.Domain.Models.VoyageModel.Entities;
+using EventFlow.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;

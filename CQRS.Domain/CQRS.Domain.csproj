@@ -52,13 +52,35 @@
     <Compile Include="Models\CargoModel\CargoId.cs" />
     <Compile Include="Models\CargoModel\Entities\TransportLeg.cs" />
     <Compile Include="Models\CargoModel\Entities\TransportLegId.cs" />
+    <Compile Include="Models\CargoModel\Specifications\RouteSpecification.cs" />
+    <Compile Include="Models\CargoModel\Specifications\TransportLegsAreConnectedSpecification.cs" />
     <Compile Include="Models\CargoModel\ValueObjects\Itinerary.cs" />
     <Compile Include="Models\CargoModel\ValueObjects\Route.cs" />
+    <Compile Include="Models\LocationModel\Events\LocationCreatedEvent.cs" />
+    <Compile Include="Models\LocationModel\Location.cs" />
+    <Compile Include="Models\LocationModel\LocationAggregate.cs" />
+    <Compile Include="Models\LocationModel\LocationId.cs" />
+    <Compile Include="Models\LocationModel\LocationState.cs" />
+    <Compile Include="Models\VoyageModel\Entities\CarrierMovement.cs" />
+    <Compile Include="Models\VoyageModel\Entities\CarrierMovementId.cs" />
+    <Compile Include="Models\VoyageModel\Events\VoyageCreatedEvent.cs" />
+    <Compile Include="Models\VoyageModel\Events\VoyageScheduleUpdatedEvent.cs" />
+    <Compile Include="Models\VoyageModel\ValueObjects\Schedule.cs" />
+    <Compile Include="Models\VoyageModel\Voyage.cs" />
+    <Compile Include="Models\VoyageModel\VoyageAggregate.cs" />
+    <Compile Include="Models\VoyageModel\VoyageId.cs" />
+    <Compile Include="Models\VoyageModel\VoyageState.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Specs.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CQRS.Utils\CQRS.Utils.csproj">
+      <Project>{827486d2-0b5a-4988-a748-0a78c12380ab}</Project>
+      <Name>CQRS.Utils</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

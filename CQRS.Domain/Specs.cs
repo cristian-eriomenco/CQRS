@@ -26,4 +26,3 @@ namespace CQRS.Domain
         }
     }
 }
-}
