@@ -58,10 +58,13 @@
     <Compile Include="Models\CargoModel\Entities\TransportLegId.cs" />
     <Compile Include="Models\CargoModel\Events\CargoBookedEvent.cs" />
     <Compile Include="Models\CargoModel\Events\CargoItinerarySetEvent.cs" />
+    <Compile Include="Models\CargoModel\Jobs\VerifyCargoItineraryJob.cs" />
+    <Compile Include="Models\CargoModel\Jobs\VerifyCargosForVoyageJob.cs" />
     <Compile Include="Models\CargoModel\Queries\GetCargosDependentOnVoyageQuery.cs" />
     <Compile Include="Models\CargoModel\Queries\GetCargosQuery.cs" />
     <Compile Include="Models\CargoModel\Specifications\RouteSpecification.cs" />
     <Compile Include="Models\CargoModel\Specifications\TransportLegsAreConnectedSpecification.cs" />
+    <Compile Include="Models\CargoModel\Subscribers\ScheduleChangedSubscriber.cs" />
     <Compile Include="Models\CargoModel\ValueObjects\Itinerary.cs" />
     <Compile Include="Models\CargoModel\ValueObjects\Route.cs" />
     <Compile Include="Models\LocationModel\Events\LocationCreatedEvent.cs" />
@@ -84,6 +87,10 @@
     <Compile Include="Models\VoyageModel\VoyageId.cs" />
     <Compile Include="Models\VoyageModel\VoyageState.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\IRoutingService.cs" />
+    <Compile Include="Services\IUpdateItineraryService.cs" />
+    <Compile Include="Services\RoutingService.cs" />
+    <Compile Include="Services\UpdateItineraryService.cs" />
     <Compile Include="Specs.cs" />
   </ItemGroup>
   <ItemGroup>
