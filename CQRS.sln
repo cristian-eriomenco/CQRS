@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS.Domain", "CQRS.Domain\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS.Utils", "CQRS.Utils\CQRS.Utils.csproj", "{827486D2-0B5A-4988-A748-0A78C12380AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS.Queries.InMemory", "CQRS.Queries.InMemory\CQRS.Queries.InMemory.csproj", "{DE0D5591-E7A9-4606-9A94-8A3D356840C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{827486D2-0B5A-4988-A748-0A78C12380AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{827486D2-0B5A-4988-A748-0A78C12380AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{827486D2-0B5A-4988-A748-0A78C12380AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE0D5591-E7A9-4606-9A94-8A3D356840C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE0D5591-E7A9-4606-9A94-8A3D356840C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE0D5591-E7A9-4606-9A94-8A3D356840C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE0D5591-E7A9-4606-9A94-8A3D356840C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

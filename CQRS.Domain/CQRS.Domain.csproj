@@ -48,6 +48,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Applications\BookingApplicationService.cs" />
+    <Compile Include="Applications\IBookingApplicationService.cs" />
+    <Compile Include="Applications\IScheduleApplicationService.cs" />
+    <Compile Include="Applications\ScheduleApplicationService.cs" />
     <Compile Include="Models\CargoModel\Cargo.cs" />
     <Compile Include="Models\CargoModel\CargoAggregate.cs" />
     <Compile Include="Models\CargoModel\CargoId.cs" />
@@ -67,11 +71,13 @@
     <Compile Include="Models\CargoModel\Subscribers\ScheduleChangedSubscriber.cs" />
     <Compile Include="Models\CargoModel\ValueObjects\Itinerary.cs" />
     <Compile Include="Models\CargoModel\ValueObjects\Route.cs" />
+    <Compile Include="Models\LocationModel\Commands\LocationCreateCommand.cs" />
     <Compile Include="Models\LocationModel\Events\LocationCreatedEvent.cs" />
     <Compile Include="Models\LocationModel\Location.cs" />
     <Compile Include="Models\LocationModel\LocationAggregate.cs" />
     <Compile Include="Models\LocationModel\LocationId.cs" />
     <Compile Include="Models\LocationModel\LocationState.cs" />
+    <Compile Include="Models\LocationModel\Queries\GetLocationsQuery.cs" />
     <Compile Include="Models\VoyageModel\Commands\VoyageCreateCommand.cs" />
     <Compile Include="Models\VoyageModel\Commands\VoyageDelayCommand.cs" />
     <Compile Include="Models\VoyageModel\Entities\CarrierMovement.cs" />
